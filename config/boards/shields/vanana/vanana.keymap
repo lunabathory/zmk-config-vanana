@@ -56,7 +56,7 @@
                 &kp LSFT    &kp Z       &kp X       &kp C       &kp V     &kp B         &kp C_PP    &kp K       &kp M       &kp CMMA    &kp DOT     &kp FSLH    &kp RSFT
                             &kp LCTL    &kp DEL    &kp LALT    &kp LWIN &mo LOWER                   &kp SPC     &mo RAISE   &kp C_AL_FILES    &kp HOME    &kp END
             >;
-            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp LEFT RIGHT>;
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
 
         mod_layer {
@@ -67,7 +67,7 @@
                 &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans 
                             &trans      &trans      &trans      &trans      &kp SPC                 &kp SPC     &trans      &trans      &trans      &trans
             >;
-            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp LEFT RIGHT>;
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
 
         mac_layer {
@@ -78,7 +78,7 @@
                 &kp LSFT    &kp Z       &kp X       &kp C       &kp V     &kp B         &kp C_PLAY_PAUSE    &kp N       &kp M       &kp CMMA    &kp DOT     &kp SLASH    &kp RSFT
                             &kp LCTL    &kp DEL    &kp LALT    &kp LWIN &mo LOWER                   &kp SPC     &mo RAISE   &kp C_AL_FILES    &kp HOME    &kp END
             >;
-            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp LEFT RIGHT>;
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
 
         lower_layer {
@@ -89,7 +89,7 @@
                 &trans     &trans    &trans   &trans   &trans   &trans   &trans    &trans    &kp NUM_1    &kp NUM_2    &kp NUM_3    &kp RET   &trans
                             &trans      &trans      &trans      &trans      &trans                  &trans      &kp NUM_0  &trans      &trans      &trans
             >;
-            sensor-bindings = <&inc_dec_kp LEFT RIGHT &inc_dec_kp C_VOL_DN C_VOL_UP>;
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
 
         raise_layer {
