@@ -65,7 +65,7 @@
                 &trans      &trans      &trans      &trans      &trans      &trans                  &trans      &trans      &trans      &trans      &trans      &trans
                 &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans
                 &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans 
-                            &trans      &trans      &trans      &trans      &kp SPC                 &kp SPC     &trans      &trans      &trans      &trans
+                            &trans      &trans      &trans      &trans      &kp SPACE                 &kp SPACE     &trans      &trans      &trans      &trans
             >;
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp LEFT RIGHT>;
         };
